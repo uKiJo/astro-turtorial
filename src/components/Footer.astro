@@ -1,0 +1,19 @@
+---
+import Social from "./Social.astro";
+const platform = "github";
+const username = "withastro";
+---
+
+<footer>
+  <Social platform="github" username="uKiJo" />
+  <Social platform="twitter" username="uKiJo" />
+  <Social platform="facebook" username="uKiJo" />
+</footer>
+
+<style>
+  footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+</style>
